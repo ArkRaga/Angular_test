@@ -64,6 +64,9 @@ body {
 }
 
 .form-control input {
+  background-color: var(--dark);
+  border-color: var(--dark);
+  color: var(--lightest);
   width: 100%;
   height: 40px;
   margin: 5px;
