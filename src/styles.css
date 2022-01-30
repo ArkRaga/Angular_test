@@ -5,6 +5,17 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --lightest: #9775a6;
+  --light: #683a68;
+  --dark: #412752;
+  --darkest: #2d162c;
+}
+
+html {
+  background-color: var(--darkest);
+  color: var(--lightest);
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -15,14 +26,14 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 1px solid var(--light);
   padding: 30px;
   border-radius: 5px;
 }
 .btn {
   display: inline-block;
-  background: #000;
-  color: #fff;
+  background: var(--lightest);
+  color: var(--dark);
   border: none;
   padding: 10px 20px;
   margin: 5px;
